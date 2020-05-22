@@ -1,0 +1,31 @@
+.toaster {
+  &-wrapper {
+    position: fixed;
+    width: 300px;
+    top: 0;
+    left: calc(50% - 150px);
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+  }
+  &-toast {
+    width: fit-content;
+    max-width: 300px;
+    min-width: 100px;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 2px;
+    margin: 0 auto;
+    margin-top: 10px;
+    color: #fff;
+  }
+  .toast_default {
+    background: #238C2C;
+  }
+  .toast_warning {
+    background: #A66321;
+  }
+  .toast_danger {
+    background: #A82A2A;
+  }
+}
