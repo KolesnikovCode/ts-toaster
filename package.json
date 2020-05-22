@@ -1,7 +1,7 @@
 {
   "name": "toaster-js",
   "version": "0.0.1",
-  "description": "Woof woof, it's a very simple JS toaster library. Status: Pre-alpha.",
+  "description": "Woof woof, it's a very simple JS toaster library. Status: Pre-alpha, nightly.",
   "main": "index.js",
   "scripts": {
     "dev": "webpack-dev-server --port 9000 --inline --progress --profile --colors --watch --content-base src/ --mode development",
