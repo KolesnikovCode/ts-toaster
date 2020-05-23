@@ -9,7 +9,7 @@ export default class Toaster {
     lifeTime: number;
     toasterContainer: HTMLElement;
     toastersWrapper: HTMLElement;
-    readonly toastsArray: Array<Object> = [];
+    readonly toastsArray: Array<Toast> = [];
 
     // Default properties
     readonly defaultMaxToasts: number = 5;
