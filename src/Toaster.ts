@@ -38,11 +38,11 @@ export default class Toaster {
         document.body.append(this.toasterContainer);
     }
 
-    showToast(params: IToastParams) {
+    showToast({ type, text }: IToastParams) {
         // Create instance of Toast class
         const toast = new Toast({
-            type: params.type,
-            text: params.text,
+            type,
+            text,
         });
         // Push toast instance in toastArray
         if (this.toastCounter < this.maxToasts) {

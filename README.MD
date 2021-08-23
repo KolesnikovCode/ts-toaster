@@ -1,5 +1,5 @@
 # TS-Toaster
-![Example](https://psv4.userapi.com/c856424/u2351807/docs/d10/81b481ac051f/toaster-example.gif?extra=rnQVSGBkaMLNQK4SUWhaFsQwgDLYzqiSnm6U2GKMWT39TQRg0iHCbI3Fq2-WQUTis8WePyuCdU0DQfjEszQ01I_AEP6ZCTty3_tBh2Ll5RGSWXgulUW5KiXa4Yt9mOOLAI48RA2iTaa4WnJscnHTDg "Example")
+![Example](./screen.png "Example")
 
 ### Run project
 
